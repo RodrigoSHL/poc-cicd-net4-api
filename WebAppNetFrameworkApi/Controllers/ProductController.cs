@@ -15,16 +15,21 @@ namespace WebAppNetFrameworkApi.Controllers
             return new List<Product>
             {
                 new Product { Name = "Producto1" },
-                new Product { Name = "Producto2" }
+                new Product { Name = "Producto2" },
+                new Product { Name = "Producto2" },
+                new Product { Name = "Producto2" },
+                new Product { Name = "Producto2" },
+                new Product { Name = "Producto2" },
+
             };
         }
     }
 
 
-    public class Product
-    {
-        public string Name { get; set; }
+        public class Product
+        {
+            public string Name { get; set; }
+        }
+
+
     }
-
-
-}
